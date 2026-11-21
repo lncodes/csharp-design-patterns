@@ -24,23 +24,24 @@ This repository demonstrates the **Observer** design pattern in C#. An `AreaSubj
 
 1. Clone or download the project.
     ```bash
-    git clone https://github.com/lncodes/design-pattern-observer.git
+    git clone https://github.com/lncodes/csharp-design-patterns.git
+    cd csharp-design-patterns/behavioral/observer
     ```
 
-2. Open `c#/src/Observer.sln` in Visual Studio or Rider.
+2. Open `src/Observer.sln` in Visual Studio or Rider.
 
-> Targets .NET Core 3.1; install that SDK, or retarget the project to a current .NET version.
+> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
 
 <h2 id="usage">🧑‍💻 Usage</h2>
 
 - Build:
     ```bash
-    dotnet build "c#/src/Observer.sln"
+    dotnet build "src/Observer.sln"
     ```
 
 - Run the unit tests:
     ```bash
-    dotnet test "c#/test"
+    dotnet test "test"
     ```
 
 <h2 id="contribute">🤝 Contribute</h2>
@@ -49,8 +50,8 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/design-pattern-observer/issues).
+If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
 
 <h2 id="license"> 📋 License</h2>
 
-This project is licensed under the [MIT License](LICENSE).<br>
+This project is licensed under the [MIT License](../../LICENSE).<br>

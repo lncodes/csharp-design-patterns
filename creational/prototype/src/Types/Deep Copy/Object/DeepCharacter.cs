@@ -1,13 +1,13 @@
-﻿using System;
+﻿using System.Text.Json.Serialization;
 
 namespace Lncodes.Tutorial.Prototype
 {
     /// <summary>
-    /// Serializable attribute is for BinarySerializationPrototype the xml type dosen't need it
+    /// [JsonInclude] lets JsonSerializationPrototype copy non-public members; the xml type ignores it
     /// </summary>
-    [Serializable]
     public abstract class DeepCharacter
     {
+        [JsonInclude]
         internal int Level;
 
         /// <summary>

@@ -7,15 +7,7 @@
 
 <h1 align="center">Singleton Design Pattern in C#</h1>
 <p align="center">
-  <a href="https://github.com/lncodes/singleton-design-pattern-csharp/actions/workflows/build-and-test-dotnet.yml">
-      <img src="https://github.com/lncodes/singleton-design-pattern-csharp/actions/workflows/build-and-test-dotnet.yml/badge.svg" alt="Build Status">
-  </a>
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=alert_status" alt="Quality Gate Status">
-  </a>
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=coverage" alt="Code Coverage Status">
-  </a>
+  <a href="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml"><img src="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml/badge.svg"></a>
 </p>
 
 <p align="center">
@@ -108,7 +100,7 @@ To use the Singleton design pattern from this repository in your project, follow
 
 <h2 id="contribute">🤝 Contribute</h2>
 
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](CONTRIBUTING.md).
+We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
 
 <h2 id="discussion">💬 Discussion</h2>
 
@@ -116,4 +108,4 @@ If you have any questions or want to discuss anything related to this project, v
 
 <h2 id="license"> 📋 License</h2>
 
-This project is licensed under the [MIT License](../LICENSE).<br>
+This project is licensed under the [MIT License](../../LICENSE).<br>

@@ -1,18 +1,19 @@
-﻿using System;
+﻿using System.Text.Json.Serialization;
 
 namespace Lncodes.Tutorial.Prototype
 {
     /// <summary>
-    /// Serializable attribute is for BinarySerializationPrototype the xml type dosen't need it
+    /// [JsonInclude] lets JsonSerializationPrototype copy non-public members; the xml type ignores it
     /// </summary>
-    [Serializable]
     public sealed class DeepInventory
     {
+        [JsonInclude]
         internal int Capacity;
 
         /// <summary>
         /// Constructor for xml prototype cause it's must have paramterless constructor
         /// </summary>
+        [JsonConstructor]
         private DeepInventory() { }
 
         /// <summary>

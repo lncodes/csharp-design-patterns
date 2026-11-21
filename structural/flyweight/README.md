@@ -7,9 +7,7 @@
 
 <h1 align="center">Flyweight Design Pattern</h1>
 <p align="center">
-  <a href="https://github.com/lncodes/design-pattern-flyweight/actions/workflows/c%23-build.yml">
-      <img src="https://github.com/lncodes/design-pattern-flyweight/actions/workflows/c%23-build.yml/badge.svg">
-  </a>
+  <a href="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml"><img src="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml/badge.svg"></a>
 </p>
 
 <p align="center">
@@ -29,23 +27,24 @@ This repository demonstrates the **Flyweight** design pattern in C#. Gun control
 
 1. Clone or download the project.
     ```bash
-    git clone https://github.com/lncodes/design-pattern-flyweight.git
+    git clone https://github.com/lncodes/csharp-design-patterns.git
+    cd csharp-design-patterns/structural/flyweight
     ```
 
-2. Open `c#/src/Flyweight.sln` in Visual Studio or Rider.
+2. Open `src/Flyweight.sln` in Visual Studio or Rider.
 
-> Targets .NET Core 3.1; install that SDK, or retarget the project to a current .NET version.
+> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
 
 <h2 id="usage">🧑‍💻 Usage</h2>
 
 - Build:
     ```bash
-    dotnet build "c#/src/Flyweight.sln"
+    dotnet build "src/Flyweight.sln"
     ```
 
 - Run the unit tests:
     ```bash
-    dotnet test "c#/test"
+    dotnet test "test"
     ```
 
 <h2 id="contribute">🤝 Contribute</h2>
@@ -54,8 +53,8 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/design-pattern-flyweight/issues).
+If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
 
 <h2 id="license"> 📋 License</h2>
 
-This project is licensed under the [MIT License](LICENSE).<br>
+This project is licensed under the [MIT License](../../LICENSE).<br>
