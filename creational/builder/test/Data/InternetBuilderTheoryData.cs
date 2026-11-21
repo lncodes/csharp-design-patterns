@@ -7,9 +7,9 @@ namespace Lncodes.Tutorial.Builder.Test
     {
         public InternetBuilderTheoryData()
         {
-            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999"));
-            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999"));
-            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999"));
+            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999", System.Globalization.CultureInfo.InvariantCulture));
+            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999", System.Globalization.CultureInfo.InvariantCulture));
+            Add("Smith", 175.25f, 70f, Gender.Male, DateTime.Parse("05/20/1999", System.Globalization.CultureInfo.InvariantCulture));
         }
     }
 }

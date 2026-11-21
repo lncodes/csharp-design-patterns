@@ -22,7 +22,7 @@ namespace Lncodes.Tutorial.Builder
 
         ///<inheritdoc cref="Builder"/>
         internal override void SetCharacterBirthDate() =>
-            BirthDate = DateTime.Parse("05/20/1995");
+            BirthDate = DateTime.Parse("05/20/1995", System.Globalization.CultureInfo.InvariantCulture);
 
         ///<inheritdoc cref="Builder"/>
         internal override Character GetResult() =>
