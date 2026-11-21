@@ -21,7 +21,7 @@
 
 <h2 id="introduction">🌟 Introduction</h2>
 
-This repository demonstrates the **Prototype** design pattern in C#, comparing shallow and deep copy approaches: manual deep copy, binary serialization and XML serialization.
+This repository demonstrates the **Prototype** design pattern in C#, comparing shallow and deep copy approaches: manual deep copy, JSON serialization (System.Text.Json) and XML serialization.
 
 <h2 id="installation">📦 Installation</h2>
 
