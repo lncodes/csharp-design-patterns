@@ -42,7 +42,7 @@ To set up this C# project on your local machine, ensure that the system requirem
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone https://github.com/lncodes/singleton-design-pattern-csharp.git
+      git clone https://github.com/lncodes/csharp-design-patterns.git
       ```
 
     - **Download as ZIP**
@@ -54,10 +54,10 @@ To set up this C# project on your local machine, ensure that the system requirem
     Navigate to the project directory containing the source files by executing the following command:
 
     ```bash
-    cd singleton-design-pattern-csharp/src
+    cd csharp-design-patterns/creational/singleton
     ```
 
-    > **Note:** Make sure you're in the correct parent directory where the `singleton-design-pattern-csharp` folder is located.
+    > **Note:** Make sure you're in the correct parent directory where the `csharp-design-patterns` folder is located (this folder contains `Singleton.sln` with the source and test projects).
     
 3. **Restore Dependencies**
 
@@ -104,7 +104,7 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum](https://github.com/lncodes/singleton-design-pattern-csharp/discussions). You can also leave comments on the [Singleton Design Pattern - Last Night Codes](https://lncodes.com/singleton-design-pattern/) blog post for a more in-depth discussion on this project’s topics.
+If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum](https://github.com/lncodes/csharp-design-patterns/discussions). You can also leave comments on the [Singleton Design Pattern - Last Night Codes](https://lncodes.com/singleton-design-pattern/) blog post for a more in-depth discussion on this project’s topics.
 
 <h2 id="license"> 📋 License</h2>
 
