@@ -1,60 +1,37 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+# State Design Pattern
 
-<h1 align="center">State Design Pattern</h1>
-<p align="center">
-  <a href="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml"><img src="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml/badge.svg"></a>
-</p>
+> Part of [**csharp-design-patterns**](../../README.md) · targets **.NET 10**
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+This project demonstrates the **State** design pattern in C#. Player controllers delegate their behaviour to battle state contexts, with both a single-active-state context and a multiple-active-state context.
 
-<h2 id="introduction">🌟 Introduction</h2>
+## Quick start
 
-This repository demonstrates the **State** design pattern in C#. Player controllers delegate their behaviour to battle state contexts, with both a single-active-state context and a multiple-active-state context.
+```bash
+git clone https://github.com/lncodes/csharp-design-patterns.git
+cd csharp-design-patterns/behavioral/state
+dotnet build src
+dotnet test test
+```
 
-<h2 id="installation">📦 Installation</h2>
+## What's inside
 
-1. Clone or download the project.
-    ```bash
-    git clone https://github.com/lncodes/csharp-design-patterns.git
-    cd csharp-design-patterns/behavioral/state
-    ```
+- [`src/Object/PlayerController.cs`](src/Object/PlayerController.cs)
+- [`src/Object/PlayerOneController.cs`](src/Object/PlayerOneController.cs)
+- [`src/Object/PlayerThreeController.cs`](src/Object/PlayerThreeController.cs)
+- [`src/Object/PlayerTwoController.cs`](src/Object/PlayerTwoController.cs)
+- [`src/Types/State Context/Multiple Active State Context/MultiBattleStateContext.cs`](src/Types/State%20Context/Multiple%20Active%20State%20Context/MultiBattleStateContext.cs)
+- [`src/Types/State Context/Single Active State Context/AutoBattleStateContext.cs`](src/Types/State%20Context/Single%20Active%20State%20Context/AutoBattleStateContext.cs)
+- [`src/Types/State Context/Single Active State Context/ManualBattleStateContext.cs`](src/Types/State%20Context/Single%20Active%20State%20Context/ManualBattleStateContext.cs)
+- [`src/Types/State Context/Unique State Context Types/SingletonBattleStateContext.cs`](src/Types/State%20Context/Unique%20State%20Context%20Types/SingletonBattleStateContext.cs)
+- [`src/Types/State/Auto Assign State/AutoBattleState.cs`](src/Types/State/Auto%20Assign%20State/AutoBattleState.cs)
+- [`src/Types/State/Auto Assign State/PlayerOneAutoBattleState.cs`](src/Types/State/Auto%20Assign%20State/PlayerOneAutoBattleState.cs)
+- [`src/Types/State/Auto Assign State/PlayerThreeAutoBattleState.cs`](src/Types/State/Auto%20Assign%20State/PlayerThreeAutoBattleState.cs)
+- [`src/Types/State/Auto Assign State/PlayerTwoAutoBattleState.cs`](src/Types/State/Auto%20Assign%20State/PlayerTwoAutoBattleState.cs)
+- [`src/Types/State/Manual Assign State/ManualBattleState.cs`](src/Types/State/Manual%20Assign%20State/ManualBattleState.cs)
+- [`src/Types/State/Manual Assign State/PlayerOneManualBattleState.cs`](src/Types/State/Manual%20Assign%20State/PlayerOneManualBattleState.cs)
+- [`src/Types/State/Manual Assign State/PlayerThreeManualBattleState.cs`](src/Types/State/Manual%20Assign%20State/PlayerThreeManualBattleState.cs)
+- [`src/Types/State/Manual Assign State/PlayerTwoManualBattleState.cs`](src/Types/State/Manual%20Assign%20State/PlayerTwoManualBattleState.cs)
 
-2. Open `src/State.sln` in Visual Studio or Rider.
+---
 
-> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
-
-<h2 id="usage">🧑‍💻 Usage</h2>
-
-- Build:
-    ```bash
-    dotnet build "src/State.sln"
-    ```
-
-- Run the unit tests:
-    ```bash
-    dotnet test "test"
-    ```
-
-<h2 id="contribute">🤝 Contribute</h2>
-
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
-
-<h2 id="discussion">💬 Discussion</h2>
-
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
-
-<h2 id="license"> 📋 License</h2>
-
-This project is licensed under the [MIT License](../../LICENSE).<br>
+Questions? Use [Discussions](https://github.com/lncodes/csharp-design-patterns/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](../../LICENSE)

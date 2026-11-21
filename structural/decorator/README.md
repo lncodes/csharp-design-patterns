@@ -1,57 +1,31 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+# Decorator Design Pattern
 
-<h1 align="center">Decorator Design Pattern</h1>
+> Part of [**csharp-design-patterns**](../../README.md) · targets **.NET 10**
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+This project demonstrates the **Decorator** design pattern in C#. Gun accessories (extended magazine, flash hider, quick-draw magazine) wrap an `AwmGun` to add behaviour at runtime, shown in both a regular and a generic implementation.
 
-<h2 id="introduction">🌟 Introduction</h2>
+## Quick start
 
-This repository demonstrates the **Decorator** design pattern in C#. Gun accessories (extended magazine, flash hider, quick-draw magazine) wrap an `AwmGun` to add behaviour at runtime, shown in both a regular and a generic implementation.
+```bash
+git clone https://github.com/lncodes/csharp-design-patterns.git
+cd csharp-design-patterns/structural/decorator
+dotnet build src
+dotnet test test
+```
 
-<h2 id="installation">📦 Installation</h2>
+## What's inside
 
-1. Clone or download the project.
-    ```bash
-    git clone https://github.com/lncodes/csharp-design-patterns.git
-    cd csharp-design-patterns/structural/decorator
-    ```
+- [`src/AwmGun.cs`](src/AwmGun.cs)
+- [`src/Decocator (Weapon Accessory)/Generic/ExtendedMagGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Generic/ExtendedMagGunAccessoryDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Generic/FlashHidderGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Generic/FlashHidderGunAccessoryDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Generic/GunAccessoriesDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Generic/GunAccessoriesDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Generic/QuickDrawMagGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Generic/QuickDrawMagGunAccessoryDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Reguler/ExtendedMagGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Reguler/ExtendedMagGunAccessoryDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Reguler/FlashHidderGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Reguler/FlashHidderGunAccessoryDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Reguler/GunAccessoriesDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Reguler/GunAccessoriesDecocator.cs)
+- [`src/Decocator (Weapon Accessory)/Reguler/QuickDrawMagGunAccessoryDecocator.cs`](src/Decocator%20%28Weapon%20Accessory%29/Reguler/QuickDrawMagGunAccessoryDecocator.cs)
+- [`src/Gun.cs`](src/Gun.cs)
 
-2. Open `src/Decocator.sln` in Visual Studio or Rider.
+---
 
-> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
-
-<h2 id="usage">🧑‍💻 Usage</h2>
-
-- Build:
-    ```bash
-    dotnet build "src/Decocator.sln"
-    ```
-
-- Run the unit tests:
-    ```bash
-    dotnet test "test"
-    ```
-
-<h2 id="contribute">🤝 Contribute</h2>
-
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
-
-<h2 id="discussion">💬 Discussion</h2>
-
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
-
-<h2 id="license"> 📋 License</h2>
-
-This project is licensed under the [MIT License](../../LICENSE).<br>
+Questions? Use [Discussions](https://github.com/lncodes/csharp-design-patterns/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](../../LICENSE)

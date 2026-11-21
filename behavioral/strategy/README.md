@@ -1,57 +1,26 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+# Strategy Design Pattern
 
-<h1 align="center">Strategy Design Pattern</h1>
+> Part of [**csharp-design-patterns**](../../README.md) · targets **.NET 10**
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+This project demonstrates the **Strategy** design pattern in C#. A `PlayerController` swaps between interchangeable companion behaviours (`BearCompanion`, `CrocodileCompanion`, `DogCompanion`) at runtime through a shared `Companion` abstraction.
 
-<h2 id="introduction">🌟 Introduction</h2>
+## Quick start
 
-This repository demonstrates the **Strategy** design pattern in C#. A `PlayerController` swaps between interchangeable companion behaviours (`BearCompanion`, `CrocodileCompanion`, `DogCompanion`) at runtime through a shared `Companion` abstraction.
+```bash
+git clone https://github.com/lncodes/csharp-design-patterns.git
+cd csharp-design-patterns/behavioral/strategy
+dotnet build src
+dotnet test test
+```
 
-<h2 id="installation">📦 Installation</h2>
+## What's inside
 
-1. Clone or download the project.
-    ```bash
-    git clone https://github.com/lncodes/csharp-design-patterns.git
-    cd csharp-design-patterns/behavioral/strategy
-    ```
+- [`src/Companion/BearCompanion.cs`](src/Companion/BearCompanion.cs)
+- [`src/Companion/Companion.cs`](src/Companion/Companion.cs)
+- [`src/Companion/CrocodileCompanion.cs`](src/Companion/CrocodileCompanion.cs)
+- [`src/Companion/DogCompanion.cs`](src/Companion/DogCompanion.cs)
+- [`src/PlayerController.cs`](src/PlayerController.cs)
 
-2. Open `src/Strategy.sln` in Visual Studio or Rider.
+---
 
-> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
-
-<h2 id="usage">🧑‍💻 Usage</h2>
-
-- Build:
-    ```bash
-    dotnet build "src/Strategy.sln"
-    ```
-
-- Run the unit tests:
-    ```bash
-    dotnet test "test"
-    ```
-
-<h2 id="contribute">🤝 Contribute</h2>
-
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
-
-<h2 id="discussion">💬 Discussion</h2>
-
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
-
-<h2 id="license"> 📋 License</h2>
-
-This project is licensed under the [MIT License](../../LICENSE).<br>
+Questions? Use [Discussions](https://github.com/lncodes/csharp-design-patterns/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](../../LICENSE)

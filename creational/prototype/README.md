@@ -1,60 +1,33 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+# Prototype Design Pattern
 
-<h1 align="center">Prototype Design Pattern</h1>
-<p align="center">
-  <a href="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml"><img src="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml/badge.svg"></a>
-</p>
+> Part of [**csharp-design-patterns**](../../README.md) · targets **.NET 10**
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+This project demonstrates the **Prototype** design pattern in C#, comparing shallow and deep copy approaches: manual deep copy, JSON serialization (System.Text.Json) and XML serialization.
 
-<h2 id="introduction">🌟 Introduction</h2>
+## Quick start
 
-This repository demonstrates the **Prototype** design pattern in C#, comparing shallow and deep copy approaches: manual deep copy, JSON serialization (System.Text.Json) and XML serialization.
+```bash
+git clone https://github.com/lncodes/csharp-design-patterns.git
+cd csharp-design-patterns/creational/prototype
+dotnet build src
+dotnet test test
+```
 
-<h2 id="installation">📦 Installation</h2>
+## What's inside
 
-1. Clone or download the project.
-    ```bash
-    git clone https://github.com/lncodes/csharp-design-patterns.git
-    cd csharp-design-patterns/creational/prototype
-    ```
+- [`src/Types/Deep Copy/ManualDeepCopyPrototype.cs`](src/Types/Deep%20Copy/ManualDeepCopyPrototype.cs)
+- [`src/Types/Deep Copy/Object/DeepCharacter.cs`](src/Types/Deep%20Copy/Object/DeepCharacter.cs)
+- [`src/Types/Deep Copy/Object/DeepInventory.cs`](src/Types/Deep%20Copy/Object/DeepInventory.cs)
+- [`src/Types/Deep Copy/Serialization/JsonSerializationPrototype.cs`](src/Types/Deep%20Copy/Serialization/JsonSerializationPrototype.cs)
+- [`src/Types/Deep Copy/Serialization/XmlSerializationPrototype.cs`](src/Types/Deep%20Copy/Serialization/XmlSerializationPrototype.cs)
+- [`src/Types/Shallow Copy/CloneableInterfacePrototype.cs`](src/Types/Shallow%20Copy/CloneableInterfacePrototype.cs)
+- [`src/Types/Shallow Copy/ConstructorPrototype.cs`](src/Types/Shallow%20Copy/ConstructorPrototype.cs)
+- [`src/Types/Shallow Copy/Object/ShallowCharacter.cs`](src/Types/Shallow%20Copy/Object/ShallowCharacter.cs)
+- [`src/Types/Shallow Copy/Object/ShallowInventory.cs`](src/Types/Shallow%20Copy/Object/ShallowInventory.cs)
+- [`src/Types/Shallow Copy/Registry Prototype/Object/RegistryCharacter.cs`](src/Types/Shallow%20Copy/Registry%20Prototype/Object/RegistryCharacter.cs)
+- [`src/Types/Shallow Copy/Registry Prototype/RegistryPrototype.cs`](src/Types/Shallow%20Copy/Registry%20Prototype/RegistryPrototype.cs)
+- [`src/Types/Shallow Copy/Registry Prototype/SingeltonRegistryPrototype.cs`](src/Types/Shallow%20Copy/Registry%20Prototype/SingeltonRegistryPrototype.cs)
 
-2. Open `src/Prototype.sln` in Visual Studio or Rider.
+---
 
-> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
-
-<h2 id="usage">🧑‍💻 Usage</h2>
-
-- Build:
-    ```bash
-    dotnet build "src/Prototype.sln"
-    ```
-
-- Run the unit tests:
-    ```bash
-    dotnet test "test"
-    ```
-
-<h2 id="contribute">🤝 Contribute</h2>
-
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
-
-<h2 id="discussion">💬 Discussion</h2>
-
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
-
-<h2 id="license"> 📋 License</h2>
-
-This project is licensed under the [MIT License](../../LICENSE).<br>
+Questions? Use [Discussions](https://github.com/lncodes/csharp-design-patterns/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](../../LICENSE)

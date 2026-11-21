@@ -1,60 +1,31 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+# Flyweight Design Pattern
 
-<h1 align="center">Flyweight Design Pattern</h1>
-<p align="center">
-  <a href="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml"><img src="https://github.com/lncodes/csharp-design-patterns/actions/workflows/ci.yml/badge.svg"></a>
-</p>
+> Part of [**csharp-design-patterns**](../../README.md) · targets **.NET 10**
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+This project demonstrates the **Flyweight** design pattern in C#. Gun controllers share intrinsic `GunModel` data through flyweight factories, including eager and factory-based variants, to reduce memory use.
 
-<h2 id="introduction">🌟 Introduction</h2>
+## Quick start
 
-This repository demonstrates the **Flyweight** design pattern in C#. Gun controllers share intrinsic `GunModel` data through flyweight factories, including eager and factory-based variants, to reduce memory use.
+```bash
+git clone https://github.com/lncodes/csharp-design-patterns.git
+cd csharp-design-patterns/structural/flyweight
+dotnet build src
+dotnet test test
+```
 
-<h2 id="installation">📦 Installation</h2>
+## What's inside
 
-1. Clone or download the project.
-    ```bash
-    git clone https://github.com/lncodes/csharp-design-patterns.git
-    cd csharp-design-patterns/structural/flyweight
-    ```
+- [`src/Object/GunController.cs`](src/Object/GunController.cs)
+- [`src/Object/GunModel.cs`](src/Object/GunModel.cs)
+- [`src/Object/GunTypes.cs`](src/Object/GunTypes.cs)
+- [`src/Types/Eager/EagerFactoryGunModelFlyweight.cs`](src/Types/Eager/EagerFactoryGunModelFlyweight.cs)
+- [`src/Types/Eager/EagerGunModelFlyweight.cs`](src/Types/Eager/EagerGunModelFlyweight.cs)
+- [`src/Types/FactoryGunModelFlyweight.cs`](src/Types/FactoryGunModelFlyweight.cs)
+- [`src/Types/GunModelFlyweight.cs`](src/Types/GunModelFlyweight.cs)
+- [`src/Types/Lazy/LazyFactoryGunModelFlyweight.cs`](src/Types/Lazy/LazyFactoryGunModelFlyweight.cs)
+- [`src/Types/Lazy/LazyGunModelFlyweight.cs`](src/Types/Lazy/LazyGunModelFlyweight.cs)
+- [`src/Types/Lazy/SingletonLazyFactoryGunModelFlyweight.cs`](src/Types/Lazy/SingletonLazyFactoryGunModelFlyweight.cs)
 
-2. Open `src/Flyweight.sln` in Visual Studio or Rider.
+---
 
-> Targets **.NET 10** (set once in the collection's `Directory.Build.props`). You can also open `csharp-design-patterns.sln` at the repository root to get every project at once.
-
-<h2 id="usage">🧑‍💻 Usage</h2>
-
-- Build:
-    ```bash
-    dotnet build "src/Flyweight.sln"
-    ```
-
-- Run the unit tests:
-    ```bash
-    dotnet test "test"
-    ```
-
-<h2 id="contribute">🤝 Contribute</h2>
-
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
-
-<h2 id="discussion">💬 Discussion</h2>
-
-If you have any questions or want to discuss anything related to this project, open an issue in the [issue tracker](https://github.com/lncodes/csharp-design-patterns/issues).
-
-<h2 id="license"> 📋 License</h2>
-
-This project is licensed under the [MIT License](../../LICENSE).<br>
+Questions? Use [Discussions](https://github.com/lncodes/csharp-design-patterns/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](../../LICENSE)
